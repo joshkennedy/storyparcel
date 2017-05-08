@@ -1,0 +1,16 @@
+// Custom Overrides
+@import "_overrides";
+
+@import "../../../bower_components/uikit/src/scss/variables-theme.scss";
+@import "../../../bower_components/uikit/src/scss/mixins-theme.scss";
+
+@import "components/buttons";
+@import "components/form";
+
+@import "../../../bower_components/uikit/src/scss/uikit-theme.scss";
+
+@import "components/typography";
+
+body {
+  background: url('/assets/images/pattern-dots.png') repeat;
+}

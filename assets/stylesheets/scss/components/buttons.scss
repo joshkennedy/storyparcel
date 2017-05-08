@@ -1,0 +1,14 @@
+@mixin hook-button-default() {
+  background-color: $sp-blue;
+  border: 3px solid #000;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+@mixin hook-button-default-hover() {
+  background: white;
+}
+
+@mixin hook-button-default-active() {
+
+}
