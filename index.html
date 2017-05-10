@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/stylesheets/css/application.css">
+  <link rel="stylesheet" href="./assets/stylesheets/css/application.css">
 </head>
 <body>
 
@@ -21,12 +21,12 @@
         <div uk-grid class="uk-grid-medium uk-flex-inline uk-flex-center uk-grid">
           <div class="uk-width-2-3@m">
             <p class="uk-text-lead uk-margin-medium-bottom">We'll be launching soon! Sign up to be notified and entered to win your first month free!</p>
-            <form class="uk-grid-small" uk-grid>
+            <form class="uk-grid-small validate" uk-grid  action="//mystoryparcel.us15.list-manage.com/subscribe/post?u=9b7a84a06975f222ef50889bb&amp;id=f11dbce8da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
               <div class="uk-width-2-3@m uk-margin-small-bottom@s">
-                <input class="uk-input uk-form-large" type="text" placeholder="you@awesome.com">
+                <input type="email" value="" name="EMAIL" class="uk-input uk-form-large required email" id="mce-EMAIL" placeholder="you@awesome.com">
               </div>
               <div class="uk-width-1-3@m">
-                <button class="uk-width-1-1 uk-button uk-button-default uk-form-large">Notify Me</button>
+                <button class="uk-width-1-1 uk-button uk-button-default uk-button-large">Notify Me</button>
               </div>
             </form>
           </div>
@@ -45,16 +45,16 @@
 
 
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/assets/javascript/vendor/jquery.3.2.1.min.js"><\/script>')</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./assets/javascript/vendor/jquery.3.2.1.min.js"><\/script>')</script>
 
-  <script src="/assets/javascript/min/application-min.js"></script>
+  <script src="./assets/javascript/min/application-min.js"></script>
 
   <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='//www.google-analytics.com/analytics.js';
+    e.src='https://www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
   </script>
